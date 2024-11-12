@@ -22,7 +22,3 @@ class Database():
         except:
             print("Mongo connection error!")
     
-"""
-Cette classe Database encapsule la logique de connexion à MongoDB.
-La méthode connect() établit la connexion et récupère la base de données définie dans app_config.py.
-"""

@@ -69,10 +69,4 @@ def get_users():
     except:
         return jsonify({'error': 'Error on fetching users!'}), 500
 
-"""
-Ici, tu définis les routes principales liées aux utilisateurs :
-POST /v0/users/signup pour inscrire un utilisateur.
-POST /v0/users/login pour authentifier un utilisateur et générer un token.
-GET /v0/users/all pour obtenir la liste des utilisateurs, avec validation du token.
-Ces routes appellent les fonctions dans user_controller.py pour exécuter les actions.
-"""
+

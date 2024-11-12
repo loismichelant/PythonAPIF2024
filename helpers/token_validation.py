@@ -19,7 +19,3 @@ def validate_token():
         
     return user_information
 
-"""
-Ce fichier gère la validation du token JWT.
-Lorsqu'une requête est faite aux endpoints protégés, cette fonction vérifie si un token valide est présent dans les en-têtes.
-"""

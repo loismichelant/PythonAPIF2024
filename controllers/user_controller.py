@@ -73,10 +73,3 @@ def fetch_users():
     
     return jsonify({'users': users})
 
-"""
-C’est le contrôleur des utilisateurs, où tu définis des fonctions comme create_user(), login_user(), et fetch_users().
-Il utilise MongoDB pour insérer et récupérer des données d'utilisateur via le database.
-La fonction create_user() gère la création d’un nouvel utilisateur avec hachage du mot de passe via bcrypt. Elle vérifie aussi si l'utilisateur existe déjà.
-La fonction login_user() permet de vérifier les informations d'identification de l'utilisateur, puis génère un JWT pour la session.
-fetch_users() retourne tous les utilisateurs sous forme de JSON.
-"""
